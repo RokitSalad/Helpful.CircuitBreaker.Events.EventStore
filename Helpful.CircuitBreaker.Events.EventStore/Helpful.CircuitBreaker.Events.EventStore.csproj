@@ -52,7 +52,13 @@
     <Compile Include="ClosedEvent.cs" />
     <Compile Include="EventFactory.cs" />
     <Compile Include="ObjectExtensions.cs" />
+    <Compile Include="OpenedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterBreakerEvent.cs" />
+    <Compile Include="StreamFormatter.cs" />
+    <Compile Include="TolleratedOpenEvent.cs" />
+    <Compile Include="TryingToCloseEvent.cs" />
+    <Compile Include="UnregisterBreakerEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
