@@ -11,7 +11,7 @@ namespace Helpful.CircuitBreaker.Events.EventStore
 {
     public class ClosedEvent : IClosedEvent
     {
-        public void RaiseEvent(object breakerConfig)
+        public void RaiseEvent(ICircuitBreakerDefinition breakerConfig)
         {
             var connection = EventStoreConnection.Create(new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1113));
             connection.Connect();
